@@ -164,7 +164,41 @@ main{
         border-bottom-left-radius: 20px;
     }
     .biodata{
-        margin-top: 0;
+        margin-top: 50px;
         position: relative;
+    }
+    dialog{
+        position: relative;
+        left:68%;
+        top:7%;
+        width:200px;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background-color: #2f3844;
+        overflow: hidden;
+        padding:20px;
+    }
+    dialog > svg{
+        padding: 10px;
+        margin-left:1px;
+    }
+    dialog > span {
+        position: relative;
+        top: -15px;
+        color: #a5afb9;
+        font-size: 14px;
+        letter-spacing: 5px;
+    }
+    .jj{
+        position: absolute;
+        right:30px;
+        top:-24px;
+        z-index: 1;
+        border-bottom: 15px solid #2f3844;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        transform:rotate(180deg);
     }
 }
