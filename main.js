@@ -12,6 +12,7 @@ share.addEventListener("mouseover" , () => {
     }
 })
 share.addEventListener("mouseout" , () => {
-    design.style.display = "none"
-    dialog.close()
+    setTimeout(() => {design.style.display = "none"
+    dialog.close();
+    },2000 )
 })
